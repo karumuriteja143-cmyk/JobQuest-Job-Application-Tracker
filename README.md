@@ -1,5 +1,14 @@
 JobQuest is a web-based job application tracking and ATS resume analysis platform developed using Python, Streamlit, and SQLite. The primary goal of this project is to help students and job seekers manage their entire job application process in one centralized system. Instead of maintaining spreadsheets or notes, users can store job applications, analyze resumes against job descriptions, and track their progress efficiently through a simple and fast web interface.
 
+## 🚀 Features
+- Secure user authentication (Login / Signup)
+- Job application tracking with status updates
+- ATS resume analyzer using keyword matching
+- Resume vs Job Description comparison
+- SQLite database for persistent storage
+- Clean and fast Streamlit UI
+
+
 The application provides a secure authentication system that includes login, signup, password hashing using SHA-256, CAPTCHA verification, and session-based access control. Each user has a protected session, ensuring that personal data such as job applications and resume analysis reports remain private and accessible only to the logged-in user. A forgot password feature is implemented where password reset requests are sent to the admin for approval, adding an extra layer of security.
 
 One of the core features of JobQuest is the Job Application Tracker. Users can record job applications from different platforms such as LinkedIn, Naukri, company career pages, or referrals. For each application, details like company name, job role, location, application date, status, source, and personal notes are stored in the database. Users can view, manage, and delete applications easily, helping them stay organized throughout their job search journey.
@@ -15,3 +24,10 @@ The project uses SQLite as the database, making it lightweight and easy to manag
 JobQuest is intentionally built using Streamlit to enable rapid development and deployment. Streamlit allows quick UI creation with Python while maintaining readability and simplicity. This makes the project ideal for academic submissions, portfolio demonstrations, and interview discussions.
 
 Overall, JobQuest is a real-world, end-to-end application that demonstrates practical knowledge of Python programming, database management, authentication systems, and user-centric design. It is especially useful for students and freshers preparing for placements, as it addresses common job search challenges while showcasing strong software development fundamentals.
+
+## 🔮 Future Enhancements
+- Email notifications
+- Admin dashboard
+- Resume recommendations
+- Cloud database integration
+
